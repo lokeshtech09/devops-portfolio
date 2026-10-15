@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lokesh D — DevOps Engineer</title>
+  <meta name="description" content="Lokesh D — DevOps Engineer with 6 years of experience in Kubernetes platform engineering, CI/CD, GitOps, DevSecOps and AI observability on AWS and OpenShift.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="logo mono">~/lokesh</a>
+      <nav>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero wrap">
+      <p class="mono prompt"><span class="accent">$</span> whoami</p>
+      <h1>Lokesh D</h1>
+      <h2>DevOps Engineer</h2>
+      <p class="lead">
+        6 years building cloud infrastructure, Kubernetes platforms, CI/CD pipelines and production operations
+        across <strong>AWS</strong> and <strong>OpenShift</strong>. I automate infrastructure, ship with GitOps,
+        lock down the supply chain, and make systems observable enough that incidents fix themselves.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:lokeshc.tech09@gmail.com">Get in touch</a>
+        <a class="btn" href="https://www.linkedin.com/in/lokeshd1999" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/lokeshd09" target="_blank" rel="noopener">GitHub</a>
+      </div>
+
+      <ul class="stats">
+        <li><span class="num">70%</span><span>faster deployment feedback cycles</span></li>
+        <li><span class="num">$250K</span><span>annual cloud spend saved</span></li>
+        <li><span class="num">4×</span><span>release frequency, no added rollbacks</span></li>
+        <li><span class="num">300+</span><span>critical CVEs remediated pre-release</span></li>
+      </ul>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="wrap section">
+      <h3 class="section-title"><span class="mono accent">01.</span> Experience</h3>
+
+      <article class="job">
+        <div class="job-head">
+          <div>
+            <h4>DevOps Engineer · <span class="accent">Amazon</span></h4>
+            <p class="focus">Kubernetes Platform Engineering · CI/CD Automation · GitOps · DevSecOps · AI Observability</p>
+          </div>
+          <span class="date mono">Nov 2024 – Present</span>
+        </div>
+        <ul>
+          <li>Architected multi-region <b>Amazon EKS</b> clusters as code with Terraform, Helm and Kubernetes, rightsizing node groups to save <b>$250K</b> in annual cloud spend.</li>
+          <li>Built CI/CD workflows integrating GitHub, Docker and SonarQube with static analysis, image tagging and PR approval gates — <b>4× release frequency</b> without more rollbacks.</li>
+          <li>Automated ELT pipeline deployments with ArgoCD, Ansible and Python under GitOps, reconciling config drift and cutting manual change requests by <b>45%</b>.</li>
+          <li>Embedded DevSecOps guardrails — Vault secrets rotation, Trivy scanning, OPA admission control — remediating <b>300+ critical CVEs</b> before release and passing compliance audits.</li>
+          <li>Instrumented RAG inference services and vector DB latency with Prometheus, Grafana and OpenTelemetry; SLO-based alerting lowered MTTR by <b>35%</b> during Prime Day peaks.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <div>
+            <h4>DevOps Engineer · <span class="accent">HCLTech</span></h4>
+            <p class="focus">Cloud Migration · Microservices · Release Management · Disaster Recovery · Observability</p>
+          </div>
+          <span class="date mono">Jul 2019 – Aug 2023</span>
+        </div>
+        <ul>
+          <li>Migrated <b>40+ on-prem Java applications</b> to AWS CloudFormation stacks on RHEL and Tomcat, preserving transactional integrity while decommissioning legacy hardware.</li>
+          <li>Designed Jenkins declarative pipelines triggered by GitLab MRs, building with Maven and publishing to JFrog Artifactory — <b>70% shorter</b> developer feedback cycles.</li>
+          <li>Decomposed a monolithic billing platform into <b>18 microservices</b> on OpenShift with Istio mTLS routing and Kafka event streaming.</li>
+          <li>Led release management for <b>60+ quarterly production deployments</b> with scripted blue-green cutovers (Python, Bash, NGINX, PostgreSQL validation) — zero customer-facing downtime.</li>
+          <li>Centralized logging with ELK, Splunk and Datadog APM, detecting outages <b>50% faster</b> for on-call engineers.</li>
+          <li>Established DR with Velero backups, MySQL cross-region replication and Redis Sentinel failover, achieving a <b>15-minute RTO</b>.</li>
+          <li>Hardened images and dependencies with Snyk, Qualys and CIS Benchmarks, closing <b>90%</b> of high-severity findings ahead of PCI DSS assessments.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="wrap section">
+      <h3 class="section-title"><span class="mono accent">02.</span> Projects</h3>
+      <div class="cards">
+        <article class="card">
+          <p class="mono kicker">AI · SRE · Kubernetes</p>
+          <h4>PatchPilot</h4>
+          <p class="sub">AI-driven Kubernetes incident remediation platform</p>
+          <p>An LLM-powered agent that ingests Prometheus alerts, correlates Kubernetes events with Loki logs, and executes approved runbook actions through Argo Workflows.</p>
+          <ul class="facts">
+            <li><b>40%</b> lower MTTR</li>
+            <li><b>2M+</b> log lines / day</li>
+            <li><b>30</b>-microservice test cluster</li>
+          </ul>
+          <div class="tags">
+            <span>Python</span><span>FastAPI</span><span>LangChain</span><span>Claude API</span><span>Kubernetes</span><span>Prometheus</span><span>Argo Workflows</span><span>Terraform</span><span>EKS</span><span>GitHub Actions</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="mono kicker">DevSecOps · Supply Chain</p>
+          <h4>ShipShield</h4>
+          <p class="sub">Zero-trust software supply chain security pipeline</p>
+          <p>A CI/CD pipeline that generates SBOMs with Syft, scans with Grype, signs images with Sigstore Cosign, and enforces Kyverno admission policies in-cluster.</p>
+          <ul class="facts">
+            <li><b>100%</b> unsigned artifacts blocked</li>
+            <li><b>1,200+</b> images scanned / week</li>
+          </ul>
+          <div class="tags">
+            <span>GitHub Actions</span><span>Docker</span><span>Syft</span><span>Grype</span><span>Cosign</span><span>Kyverno</span><span>Helm</span><span>Terraform</span><span>ECR</span><span>Vault</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="wrap section">
+      <h3 class="section-title"><span class="mono accent">03.</span> Skills</h3>
+      <div class="skills">
+        <div><h5>DevOps &amp; CI/CD</h5><p>Jenkins · GitHub Actions · GitLab · Argo CD · Argo Workflows · Maven · JFrog Artifactory · Git</p></div>
+        <div><h5>Cloud &amp; Infrastructure</h5><p>AWS · EKS · ECR · CloudFormation · Terraform · Kubernetes · OpenShift · RHEL · Docker · Helm · Ansible · Istio · NGINX</p></div>
+        <div><h5>Programming &amp; Automation</h5><p>Python · Java · Bash · FastAPI</p></div>
+        <div><h5>Monitoring &amp; Observability</h5><p>Prometheus · Grafana · OpenTelemetry · ELK Stack · Splunk · Datadog APM · Loki</p></div>
+        <div><h5>DevSecOps &amp; Compliance</h5><p>HashiCorp Vault · SonarQube · Trivy · Snyk · Qualys · OPA · Kyverno · Syft · Grype · Cosign · SBOM · CIS Benchmarks · PCI DSS</p></div>
+        <div><h5>Databases &amp; Messaging</h5><p>PostgreSQL · MySQL · Redis Sentinel · Apache Kafka · Vector Databases</p></div>
+        <div><h5>AI / LLM &amp; Resilience</h5><p>LangChain · Claude API · RAG · LLMs · Blue-Green Deployments · Disaster Recovery · Cross-Region Replication · Velero</p></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="wrap section">
+      <h3 class="section-title"><span class="mono accent">04.</span> Education</h3>
+      <div class="edu">
+        <div class="job-head">
+          <div><h4>M.S. in Data Science</h4><p class="focus">University of New Haven, Connecticut, USA</p></div>
+          <span class="date mono">Aug 2023 – May 2025</span>
+        </div>
+        <div class="job-head">
+          <div><h4>B.Tech in Computer Science &amp; Engineering</h4><p class="focus">GNIT, Hyderabad, India</p></div>
+          <span class="date mono">Jul 2017 – Sep 2021</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="wrap section contact">
+      <h3 class="section-title"><span class="mono accent">05.</span> Contact</h3>
+      <p>Open to DevOps, Platform and Site Reliability Engineering roles in the USA.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:lokeshc.tech09@gmail.com">lokeshc.tech09@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/lokeshd1999" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer mono">© 2026 Lokesh D · built with plain HTML &amp; CSS · hosted on GitHub Pages</footer>
+</body>
+</html>
