@@ -2,7 +2,7 @@
 
 Personal portfolio site for **Lokesh C**, a DevOps Engineer with 6 years of experience in Kubernetes platform engineering, CI/CD, GitOps, DevSecOps and AI observability across AWS and OpenShift.
 
-🌐 **Live site:** https://lokeshd09.github.io/devops-portfolio/
+🌐 **Live site:** https://lokeshtech09.github.io/devops-portfolio/
 
 ## Highlights
 - **Amazon** (Nov 2024 – Present): multi-region EKS with Terraform/Helm, saving $250K/yr; 4× release frequency; 300+ critical CVEs remediated; 35% lower MTTR.
