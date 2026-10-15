@@ -1,6 +1,6 @@
-# Lokesh D — DevOps Engineer Portfolio
+# Lokesh C — DevOps Engineer Portfolio
 
-Personal portfolio site for **Lokesh D**, a DevOps Engineer with 6 years of experience in Kubernetes platform engineering, CI/CD, GitOps, DevSecOps and AI observability across AWS and OpenShift.
+Personal portfolio site for **Lokesh C**, a DevOps Engineer with 6 years of experience in Kubernetes platform engineering, CI/CD, GitOps, DevSecOps and AI observability across AWS and OpenShift.
 
 🌐 **Live site:** https://lokeshd09.github.io/devops-portfolio/
 
@@ -23,4 +23,4 @@ python3 -m http.server 8000
 ```
 
 ## Contact
-[lokeshc.tech09@gmail.com](mailto:lokeshc.tech09@gmail.com) · [LinkedIn](https://www.linkedin.com/in/lokeshd1999)
+[lokeshc.tech09@gmail.com](mailto:lokeshc.tech09@gmail.com) · [(737) 285-2370](tel:+17372852370) · [LinkedIn](https://www.linkedin.com/in/lokesh-c-devops)
